@@ -122,9 +122,11 @@ html, body {
 
 #input {
   padding:  1em;
+  min-width: 250px;
 }
 textarea {
-  height: 126px;
+  height: 200px;
+  min-width: 250px;
 }
 .half{
   float: left;
