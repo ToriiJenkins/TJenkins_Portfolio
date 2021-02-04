@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Torii Jenkins</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+<body>
+<div class="contianer-fluid justify-content-center wrapper"
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="img/TJ_Logo_60px.png"></a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#skills">My Sklillsett</a>
+						</li>
+						<li class="nav-item>">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item>">
+							<a class="nav-link" href="#contact">Contact Me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--- Landing -->
+		<!-- Static Image to start Stretch goal of Carosel-->
+		<div id="slides" class="carousel slide container-fluid" data-ride="carousel">
+			<!--<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+			</ul>-->
+			<div class="carousel-inner">
+				
+				<div class="carousel-item active">
+					<img src="img/croppedPurple2.jpg">
+					<div class="carousel-caption">
+						<h1 class="display-2">Torii Jenkins</h1>
+						<h3>.NET Developer, looking to strengthen my understanding of project management and full stack development in a team environment where I can contribute to the success of the project at hand.</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--- Credentials -->
+		<div id="skills" class="container-fluid">
+			<div class="row text-center jumbotron ">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+					<p class="lead">--Eleven Fifty Academy Graduate.</p>
+					<p class="lead">--Microsoft HTML5 Application Development Fundamentals and Comptia Project Plus Certifications. </p>
+					<p class="lead">--Bachelors Degree in Educaton with Minors in TESOL and Mathmatics.</p>
+					<p class="lead">--Assoiciate Degree in Software Development September 2021.</p>
+				</div>
+				<!--<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+					<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+				</div>-->
+			</div>
+		</div>
+
+		<!--- Skills Title-->
+		<div class="container-fluid padding">
+			<hr class="my-4">
+			<div class="row skills text-center">
+				<div class="col-12">
+					<h1 class="display-4">My Skillset</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<!--- Skills Icons -->
+		<div clas="container-fluid padding skills">
+			<div class="row text-center padding">
+				<div class="col-xs-12 col-sm-6 col col-md-4">
+					<i class="fas fa-code" ></i>
+					<h3>HTML5</h3>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-bold"></i>
+					<h3>BOOTSTRAP</h3>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<i class="fab fa-css3"></i>
+					<h3>CSS</h3>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<img src="img/Asset 1.png">
+					<h3>C#</h3>	
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<img src="img/dotNET_Logo.png">
+					<h3></h3>	
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+		<!--- Fixed background -->
+		<!--<figure>
+			<div class="fixed-wrap">
+				<div id="fixed">
+
+				</div>
+			</div>
+		</figure>
+		<!--- Portfolio-->
+		<div id="portfolio" class="container-fluid justify-content-center portfolio">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Portfolio</h1>
+					<hr>
+				</div>
+			</div>
+		
+
+			<!--- Cards -->
+			<div class="card-deck container-fluid padding portfolio">
+				<div class="row padding">	
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" src="img/PPE Icon 300x200.svg">
+							<div class="card-body">
+								<h4 class="card-title">CSS Creature</h4>
+								<p>A fun little project created entirely with CSS in Code Pen.</p>
+								<a href="https://codepen.io/torii-jenkins/full/mdPPLMd" target="_blank" class="btn btn-outline-secondary">See Creature</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" src="img/SJFB Icon 300x200.svg">
+							<div class="card-body">
+								<h4 class="card-title">St. John Family Band Website</h4>
+								<p>My first website created for a friend and his family.</p>
+								<a href="https://www.sullens.net/~tjenkins/sdev250/project/dev/index.html.php" target="_blank" class="btn btn-outline-secondary">Visit Site</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" src="img/PPP Icon 300x200.svg">
+							<div class="card-body">
+								<h4 class="card-title">Static Store Static Store Front Page</h4>
+								<p>A static store front page whith HTML and CSS.</p>
+								<a href="https://toriijenkins.github.io/PPP_Store_Front/" class="btn btn-outline-secondary" target="_blank">Visit Page</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" src="img/API Icon 300x200.svg">
+							<div class="card-body">
+								<h4 class="card-title">Live Love Laugh Inventories API</h4>
+								<p>An API project to store home inventories.</p>
+								<a href="https://github.com/weswolff/BBNEighT" class="btn btn-outline-secondary" target:"_blank">Git Repository</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" src="img/PZ Icon 300x200.svg">
+							<div class="card-body">
+								<h4 class="card-title">Pet Zen Pet Care Application</h4>
+								<p>A .Net Web MVC Application to aid family pet care. </p>
+								<a href="https://petzenwebmvc20210129205826.azurewebsites.net" target="_blank" class="btn btn-outline-secondary">Visit Site</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!--- Contact me -->
+		<div id="contact" class="container-fluid padding contact">
+			<hr class="my-4">
+			<div class="row padding">
+				<div class="col-lg-3">
+					<div class="frame">
+						<img src="img/TJenkins200x300.svg" class="img-fluid">
+					</div>
+				</div>
+				
+				<div class="col-lg-8 form-outer ">
+					<h2>Contact Me</h2>
+					<form method="post" action="contactForm.php" class="cform">
+						<div class="half left cf">
+							<p><input type="text" id="Name" placeholder="Name"></p>
+							<p><input type="email" id="Email" placeholder="Email"></p>
+							<p><input type="text" id="Message" placeholder="Subject"></p>
+						</div>
+						<div class="half right cf">
+							<textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+							<p><input type="submit" class="btn btn-outline-secondary">Send</a></p>
+						</div>
+						
+						
+					</form>
+					
+					<br>
+					<p><a href="#"><i class="fab fa-linkedin"></i></a></p>
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+	
+		<!--- More About Me (Hidden Section) -->
+
+
+		<!--- Footer -->
+		<footer>
+			<div class="container-fluid padding">
+				<div class="row text-center">
+					<div class="col-12">
+						<img src="img/TJ_Logo_60px.png">
+						<hr class="light">
+						<p>505-715-8787</p>
+						<p>torii.j.jenkins@gmail.com</p>
+						<p>Greater Fort Wayne, Indiana</p>
+					</div>
+					
+					
+					<div class="col-12">
+						<hr class="light-100">
+						<h5> &copy; TJenkins 2020</h5>
+					</div>
+				</div>
+			</div>
+		</footer>
+</div>
+</body>
+</html>
