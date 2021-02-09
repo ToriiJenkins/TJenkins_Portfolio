@@ -198,14 +198,14 @@
 				
 				<div class="col-lg-8 form-outer ">
 					<h2>Contact Me</h2>
-					<form method="post" action="contactForm.php" class="cform">
+					<form method="post" action="https://formspree.io/f/mbjpbepl" class="cform">
 						<div class="half left cf">
-							<p><input type="text" id="Name" placeholder="Torii"></p>
-							<p><input type="email" id="Email" placeholder="Torii.J.Jenkins@gmail.com"></p>
-							<p><input type="text" id="Message" placeholder="Thank you for looking at my Portfolio."></p>
+							<p><input type="text"  id="Name"  name="name" placeholder="Full Name"></p>
+							<p><input type="email" id="Email" name="_replyto" placeholder="email"></p>
+							<p><input type="text" id="Message" name="message" placeholder="Thank you for looking at my Portfolio."></p>
 						</div>
 						<div class="half right cf">
-							<textarea name="message" type="text" id="input-message" placeholder="Hello, I do hope you will email, text, or call. My contact information is below. Git Hub does not support php, therefore this form is not currently operational."></textarea>
+							<textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
 							<p><input type="submit" class="btn btn-outline-secondary">Send</a></p>
 						</div>
 						
